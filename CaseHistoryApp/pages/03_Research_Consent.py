@@ -148,7 +148,7 @@ def pdf_path_for_language(lang: str) -> Path:
     Expected IEC-approved consent PDF for this language.
     Example filenames:
         consent_EN.pdf, consent_HI.pdf, consent_KN.pdf, consent_ML.pdf
-    in the folder data/consent_pdfs.
+    in the folder data/consent_pdfs
     """
     return PDF_DIR / f"consent_{lang}.pdf"
 
@@ -469,3 +469,4 @@ if submitted:
 
         st.success("Consent record saved/updated for this participant.")
         st.rerun()
+
