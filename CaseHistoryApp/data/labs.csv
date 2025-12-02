@@ -1,0 +1,4 @@
+LabID,LabName,LabType,ContactPerson,Email,Phone,Address,Notes
+ATMICRO,KMC ATTAVAR_MICRO LAB,PCR,,,,,
+LAB2,KMC_Attavar_Micro,Other,,,,,
+LAB3,Medgenome,NGS,,,,,
